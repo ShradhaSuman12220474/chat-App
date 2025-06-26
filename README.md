@@ -23,17 +23,36 @@ JWT_SECRET=...
 NODE_ENV=development
 ```
 
-### Build the app
+### Backend Setup
 
+* Go to the backend directory
 ```shell
-npm run build
+cd backend
+```
+* Install all the dependency
+```shell
+    npm  install
+```
+* start the server
+```
+npm run dev
 ```
 
-### Start the app
-
+### Frontend Setup
+* open a new Terminal and move to the frontend folder
 ```shell
-npm start
+    cd frontend
 ```
+* install the dependency
+```
+ npm install
+```
+
+* run the react app
+```
+npm run dev
+```
+* now open your react app in the browser
 
 ### Screenshots
 
